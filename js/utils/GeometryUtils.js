@@ -12,19 +12,6 @@
 	}
 });
 
-var update = function(){
-  var now = new Date();
-  var target = new Date(2020,0,0);
-  var diff = target.getTime() - now.getTime();
-  var counter =separate_time(diff);
-  document.getElementById('countdown').textContent =
-    '東京オリンピックまであと'
-    counter[1] + '分' +
-    counter[0] + '秒';
-  refresh();
-}
-
-
 
 THREE.GeometryUtils = {
 
