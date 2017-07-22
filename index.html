@@ -2,6 +2,7 @@
 <html lang="jp">
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/default.css">
     <style>body { margin: 0; overflow: hidden; } canvas { position: fixed; width: 100%; height: 100%;}</style>
     <title>3D ゲーム</title>
 </head>
@@ -216,6 +217,9 @@
       break;
     case STATE.PLAY:
       // プレイ中
+            
+      <div id="timer"></div>//タイマー
+            
       var ix = Math.floor(pos.x+8.0);
       var iz = Math.floor(pos.z+4.0);
       var on_surface = false;
