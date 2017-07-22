@@ -3,7 +3,7 @@
  * @author alteredq / http://alteredqualia.com/
  */
 
-timecountdown({
+$('#timer')timecountdown({
 	startDateTime : '05:00',	//カウントダウン開始
 	endDateTime   : '00:00',	//カウントダウン終わり
 	unit	      : {m:'分',s'秒'}, //カウントダウン単位
