@@ -3,15 +3,16 @@
  * @author alteredq / http://alteredqualia.com/
  */
 
-('#timer')timecountdown({
-	startDateTime : '05:00',	//カウントダウン開始
-	endDateTime   : '00:00',	//カウントダウン終わり
-	unit	      : {m:'分',s'秒'}, //カウントダウン単位
-	complete      : function(_this){
-			_time.find(timevountdown-box).css({color:'red'});
-	}
-});
-
+/**
+*('#timer')timecountdown({
+*	startDateTime : '05:00',	//カウントダウン開始
+*	endDateTime   : '00:00',	//カウントダウン終わり
+*	unit	      : {m:'分',s'秒'}, //カウントダウン単位
+*	complete      : function(_this){
+*			_time.find(timevountdown-box).css({color:'red'});
+*	}
+*});
+*/
 
 THREE.GeometryUtils = {
 
