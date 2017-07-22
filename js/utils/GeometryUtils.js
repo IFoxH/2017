@@ -3,7 +3,7 @@
  * @author alteredq / http://alteredqualia.com/
  */
 
-$('#timer')timecountdown({
+('#timer')timecountdown({
 	startDateTime : '05:00',	//カウントダウン開始
 	endDateTime   : '00:00',	//カウントダウン終わり
 	unit	      : {m:'分',s'秒'}, //カウントダウン単位
@@ -11,6 +11,20 @@ $('#timer')timecountdown({
 			_time.find(timevountdown-box).css({color:'red'});
 	}
 });
+
+var update = function(){
+  var now = new Date();
+  var target = new Date(2020,0,0);
+  var diff = target.getTime() - now.getTime();
+  var counter =separate_time(diff);
+  document.getElementById('countdown').textContent =
+    '東京オリンピックまであと'
+    counter[1] + '分' +
+    counter[0] + '秒';
+  refresh();
+}
+
+
 
 THREE.GeometryUtils = {
 
