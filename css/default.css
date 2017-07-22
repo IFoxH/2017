@@ -1,6 +1,11 @@
 @charset "utf-8";
 
 .timevountdown-box{
+  position : fixed ;
+           bottom : 10px;
+           right : 10px;;
+           width : 150px;
+           height : 300;
   text-align:center;
   margin:10px 0;
   color:#123456;
