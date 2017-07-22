@@ -3,6 +3,15 @@
  * @author alteredq / http://alteredqualia.com/
  */
 
+timecountdown({
+	startDateTime : '05:00',	//カウントダウン開始
+	endDateTime   : '00:00',	//カウントダウン終わり
+	unit	      : {m:'分',s'秒'}, //カウントダウン単位
+	complete      : function(_this){
+			_time.find(timevountdown-box).css({color:'red'});
+	}
+});
+
 THREE.GeometryUtils = {
 
 	// Merge two geometries or geometry and geometry from object (using object's transform)
